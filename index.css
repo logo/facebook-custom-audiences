@@ -1,21 +1,2 @@
-
-/**
- * Facebook Custom Audiences logo.
- */
-
-.logo[data-logo="Facebook Custom Audiences"] {
-  width: 8.156890972794724em;
-}
-
-.logo[data-logo="Facebook Custom Audiences"] > * {
-  background-image: url(images/logo.svg);
-  margin: .1em 0 .125em 0;
-}
-
-.logo[data-logo="Facebook Custom Audiences"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Facebook Custom Audiences"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
